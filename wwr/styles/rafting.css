@@ -51,6 +51,12 @@ article {
     height: auto;
 }
 
+.hero article {
+    position: absolute;
+    background-color: var(--accent2-color);
+    top: 15%;
+}
+
 .hero article img {
     float: right;
     width: 125px;
