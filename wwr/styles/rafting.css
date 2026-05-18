@@ -54,7 +54,7 @@ article {
 .hero article {
     position: absolute;
     background-color: var(--accent2-color);
-    top: 15%;
+    bottom: 10px;
 }
 
 .hero article img {
