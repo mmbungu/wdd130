@@ -80,7 +80,7 @@ section h2 {
 section .content {
     display: flex;
     flex-direction: row;
-    flex-direction: center;
+    justify-content: center;
     align-items: center;
 }
 
