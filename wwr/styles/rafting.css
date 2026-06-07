@@ -183,3 +183,7 @@ footer {
 .contact-address {
     text-align: center;
 }
+
+iframe {
+    border: 0;
+}
