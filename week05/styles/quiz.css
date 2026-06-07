@@ -1,0 +1,42 @@
+:root {
+    --primary-color: cadetblue
+}
+
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+main {
+    max-width: 600px;
+    background-color: antiquewhite;
+    padding: 30px;
+}
+
+h1 {
+    color: var(--primary-color);
+    text-align: center;
+}
+
+input,
+select,
+textarea,
+button {
+    width: 100%;
+    margin: 10px 0 20px 0;
+    font-size: 1.3em;
+    background-color: azure;
+    border-color: white;
+    color: dimgrey
+}
+
+button {
+    background-color: var(--primary-color);
+    color: white;
+
+}
