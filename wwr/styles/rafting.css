@@ -132,7 +132,7 @@ footer {
     align-items: center;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -145,4 +145,41 @@ h1 {
 
 .socialmedia a {
     text-decoration: none;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-form > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-form div div {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea,
+.contact-form button {
+    margin: 10px 0;
+}
+
+.contact-form button {
+    width: 100%;
+    font-size: 1em;
+}
+
+.employee {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-address {
+    text-align: center;
 }
