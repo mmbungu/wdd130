@@ -160,7 +160,7 @@ footer {
 .hero-summary img {
     float: right;
     width: 125px;
-    background-color: contrast-color(#fff);
+    background-color: #fff;
 }
 
 .hero h1 {
